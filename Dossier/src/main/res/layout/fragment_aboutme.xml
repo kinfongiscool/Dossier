@@ -4,7 +4,9 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#505050">
+                android:background="#505050"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp">
 
 
         <ImageView
