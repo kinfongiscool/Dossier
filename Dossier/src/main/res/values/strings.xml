@@ -7,18 +7,18 @@
     <string name="title_section2">Apps</string>
     <string name="title_section3">Contact</string>
 
-    // aboutme strings
-    <string name="kin_fong">Name</string>
+    <!--aboutme strings-->
+    <string name="name">Name</string>
     <string name="occupation">Occupation</string>
     <string name="experience">x years</string>
     <string name="other">Other</string>
 
-    // contact strings
+    <!--contact strings-->
     <string name="phone_number">0000000000</string>
     <string name="email_address">unknown@unknown.com</string>
     <string name="address">address\naddress\naddress</string>
 
-    //list_row strings
+    <!--list_row strings-->
     <string name="app_name_label">Name:</string>
     <string name="app_name_data">unknown</string>
     <string name="app_description">Description</string>

@@ -4,7 +4,8 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:gravity="center">
+              android:gravity="center"
+              android:background="#505050">
 
     <TextView
             android:layout_width="wrap_content"
@@ -12,7 +13,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/email_address"
             android:id="@+id/email_address"
-            android:textColor="#ffffff"
+            android:textColor="#3aebff"
             android:layout_below="@+id/phone_number"/>
 
     <TextView
@@ -21,7 +22,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/phone_number"
             android:id="@+id/phone_number"
-            android:textColor="#ffffff"
+            android:textColor="#3aebff"
             android:paddingTop="10dp"/>
 
     <ImageView
@@ -29,7 +30,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/image_facebook"
             android:layout_gravity="center"
-            android:src="@drawable/facebook_logo_cropped"
+            android:src="@drawable/facebook_logo"
             android:paddingTop="10dp"/>
 
     <ImageView
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/image_twitter"
             android:layout_gravity="center"
-            android:src="@drawable/twitter_logo_cropped"
+            android:src="@drawable/twitter_logo"
             android:paddingTop="10dp"/>
 
     <ImageView
@@ -45,7 +46,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/image_linkedin"
             android:layout_gravity="center"
-            android:src="@drawable/linkedin_logo_cropped"
+            android:src="@drawable/linkedin_logo"
             android:paddingTop="10dp"/>
 
 </LinearLayout>

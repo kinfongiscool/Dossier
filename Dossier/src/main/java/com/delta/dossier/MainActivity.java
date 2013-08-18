@@ -2,7 +2,6 @@ package com.delta.dossier;
 
 import java.util.Locale;
 
-import android.R;
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.content.ComponentName;
@@ -15,6 +14,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -22,7 +23,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -74,9 +74,11 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                         "screenActivity"),
                 new AppItem("MadLibs", "Madlibs! Fill in words to create\nyour own hilarious spee" +
                         "ch.", "com.delta.deltamadlibs", "com.delta.deltamadlibs.MainActivity"),
-                new AppItem("THE BEST APP", "This app is the best yay", "", ""),
-                new AppItem("THE BEST APP V2", "This app is even better", "", ""),
-                new AppItem("the worst app", "This app sucks", "", "")
+                new AppItem("DON'T CLICK ME", "This app is the best yay", "", ""),
+                new AppItem("DON'T CLICK ME V2", "This app is even better", "", ""),
+                new AppItem("don't click me either", "This app sucks", "", ""),
+                new AppItem("DON'T CLICK ME please", "This app is even better please", "", ""),
+                new AppItem("DON'T CLICK ME V3", "This app is even betterer", "", ""),
         };
 
 
@@ -220,8 +222,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             TextView occupationView = (TextView) rootView.findViewById(R.id.occupation);
             occupationView.setText(person.getPersonOccupation());
             TextView experienceView = (TextView) rootView.findViewById(R.id.experience);
-            experienceView.setText(String.valueOf(person.getPersonExperience()));
-            TextView otherView = (TextView) rootView.findViewById(R.id.experience);
+            experienceView.setText(String.valueOf(person.getPersonExperience()) + " years");
+            TextView otherView = (TextView) rootView.findViewById(R.id.other);
             otherView.setText(person.getPersonOther());
             return rootView;
         }
@@ -283,7 +285,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_contact, container, false);
             TextView phoneNumberView = (TextView) rootView.findViewById(R.id.phone_number);
-            phoneNumberView.setText(person.getPersonPhoneNumber());
+            SpannableString spanString = new SpannableString(person.getPersonPhoneNumber());
+            spanString.setSpan(new UnderlineSpan(), 0, spanString.length(), 0);
+            phoneNumberView.setText(spanString);
             phoneNumberView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -293,7 +297,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 }
             });
             TextView emailAddressView = (TextView) rootView.findViewById(R.id.email_address);
-            emailAddressView.setText(person.getPersonEmailAddress());
+            spanString = new SpannableString(person.getPersonEmailAddress());
+            spanString.setSpan(new UnderlineSpan(), 0, spanString.length(), 0);
+            emailAddressView.setText(spanString);
             emailAddressView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -301,7 +307,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     intent.setType("plain/text");
                     intent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"bradley.kin.fong@gmail.com"});
                     intent.putExtra(android.content.Intent.EXTRA_TEXT, "\n\nSent from the Dossier app.");
-                    getActivity().startActivity(Intent.createChooser(intent, "Send mail..."));
+                    getActivity().startActivity(Intent.createChooser(intent, "Send email..."));
                 }
             });
             ImageView facebookView = (ImageView) rootView.findViewById(R.id.image_facebook);

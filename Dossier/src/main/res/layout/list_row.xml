@@ -41,6 +41,6 @@
             android:id="@+id/app_name"
             android:textColor="#ffffff"
             android:layout_alignTop="@+id/image"
-            android:textSize="30dp"/>
+            android:textSize="30sp"/>
 
 </RelativeLayout>
