@@ -27,6 +27,13 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+// TODO Twitter button is broken.
+// TODO check for installation of app before launching via intent.q
+
+
+
+
+
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
     private static Person person;
@@ -74,6 +81,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                         "screenActivity"),
                 new AppItem("MadLibs", "Madlibs! Fill in words to create\nyour own hilarious spee" +
                         "ch.", "com.delta.deltamadlibs", "com.delta.deltamadlibs.MainActivity"),
+                new AppItem("LapTimer", "Keeps track of split times.", "com.kinfong.lapcounter",
+                        "com.kinfong.lapcounter.MainActivity"),
                 new AppItem("DON'T CLICK ME", "This app is the best yay", "", ""),
                 new AppItem("DON'T CLICK ME V2", "This app is even better", "", ""),
                 new AppItem("don't click me either", "This app sucks", "", ""),
@@ -124,7 +133,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-    
+
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
         // When the given tab is selected, switch to the corresponding page in
@@ -254,10 +263,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             mListView.setAdapter(appItemAdapter);
 
             // set up listitems to launch things
-            // TODO figure out how to make back button return to this app from different apps.
             mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    // TODO check for installation of app before launch.
                     Intent intent = new Intent("android.intent.action.MAIN");
                     intent.addCategory("android.intent.category.LAUNCHER");
                     intent.setComponent(new ComponentName(appItems[position].appPackageName, appItems[position].appActivityName));
@@ -327,6 +336,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     startActivity(intent);
                 }
             });
+            //TODO Twitter button is broken.
             ImageView twitterView = (ImageView) rootView.findViewById(R.id.image_twitter);
             twitterView.setOnClickListener(new View.OnClickListener() {
                 @Override

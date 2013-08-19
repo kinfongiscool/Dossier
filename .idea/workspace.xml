@@ -77,15 +77,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="31" selection-start="11547" selection-end="11547" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="5508">
+            <state line="84" column="24" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.8197065" vertical-offset="612" max-vertical-offset="5780">
               <folding>
-                <element signature="e#7969#8003#0" expanded="true" />
-                <element signature="e#8071#8105#0" expanded="true" />
-                <element signature="e#8173#8207#0" expanded="true" />
+                <element signature="e#8233#8267#0" expanded="true" />
+                <element signature="e#8335#8369#0" expanded="true" />
+                <element signature="e#8437#8471#0" expanded="true" />
+                <element signature="e#10938#11623#0" expanded="true" />
+                <element signature="e#11608#11609#0" expanded="true" />
+                <element signature="e#13979#14825#0" expanded="true" />
+                <element signature="e#14810#14811#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/AppItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="45" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,69 +106,69 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="544">
+            <state line="15" column="9" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_aboutme.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fragment_aboutme.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_aboutme.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="267" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+            <state line="6" column="0" selection-start="267" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1462">
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fragment_contact.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_contact.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-10.96" vertical-offset="134" max-vertical-offset="969">
+            <state line="24" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="969">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="list_row.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/list_row.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="43" selection-start="346" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="fragment_app.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -172,8 +185,8 @@
         <option value="$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml" />
         <option value="$PROJECT_DIR$/Dossier/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_contact.xml" />
-        <option value="$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/MainActivity.java" />
         <option value="$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_aboutme.xml" />
+        <option value="$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -209,6 +222,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,8 +334,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,18 +344,18 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AndroidStudioProjects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA300043HZ" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Default" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.main">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -481,7 +494,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25675675" sideWeight="0.6609724" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1975547" sideWeight="0.6609724" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33902758" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -503,13 +516,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="0" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6154">
           <folding>
-            <element signature="e#7969#8003#0" expanded="true" />
-            <element signature="e#8071#8105#0" expanded="true" />
-            <element signature="e#8173#8207#0" expanded="true" />
+            <element signature="e#8233#8267#0" expanded="true" />
+            <element signature="e#8335#8369#0" expanded="true" />
+            <element signature="e#8437#8471#0" expanded="true" />
+            <element signature="e#10938#11623#0" expanded="true" />
+            <element signature="e#11608#11609#0" expanded="true" />
+            <element signature="e#13979#14825#0" expanded="true" />
+            <element signature="e#14810#14811#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,83 +549,83 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_aboutme.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="267" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_contact.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_contact.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="34" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/list_row.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="43" selection-start="346" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/list_row.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/list_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="43" selection-start="346" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_app.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/values/strings.xml">
@@ -608,34 +635,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_aboutme.xml">
+      <provider editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="267" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_contact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/AppItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-10.96" vertical-offset="134" max-vertical-offset="969">
+        <state line="14" column="45" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dossier/src/main/java/com/delta/dossier/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="31" selection-start="11547" selection-end="11547" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="5508">
+        <state line="84" column="24" selection-start="3616" selection-end="3616" vertical-scroll-proportion="0.8197065" vertical-offset="612" max-vertical-offset="5780">
           <folding>
-            <element signature="e#7969#8003#0" expanded="true" />
-            <element signature="e#8071#8105#0" expanded="true" />
-            <element signature="e#8173#8207#0" expanded="true" />
+            <element signature="e#8233#8267#0" expanded="true" />
+            <element signature="e#8335#8369#0" expanded="true" />
+            <element signature="e#8437#8471#0" expanded="true" />
+            <element signature="e#10938#11623#0" expanded="true" />
+            <element signature="e#11608#11609#0" expanded="true" />
+            <element signature="e#13979#14825#0" expanded="true" />
+            <element signature="e#14810#14811#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dossier/src/main/res/layout/fragment_aboutme.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="267" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
         </state>
       </provider>
     </entry>
