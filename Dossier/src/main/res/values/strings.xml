@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Dossier</string>
+    <string name="app_name">Kin Fong</string>
     <string name="action_settings">Settings</string>
-    <string name="title">Welcome to my Dossier.</string>
+    <string name="title">About me</string>
     <string name="nameLabel">Name:</string>
-    <string name="nameData">sadfasfasdafdsfadfa</string>
+    <string name="nameData">unknown</string>
+    <string name="appLabel">Apps Made:</string>
+    <string name="appData">unknown</string>
+    <string name="favoritePersonLabel">Favorite Person:</string>
+    <string name="favoritePersonData">unknown</string>
 </resources>

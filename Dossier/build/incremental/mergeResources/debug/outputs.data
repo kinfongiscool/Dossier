@@ -1,13 +1,17 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374280495000 1180 7b253bdf3011226de369cd31b906da2ab5e12058 /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/values/values.xml
-1374280495000 2272 7e29e6ca430a7c350b10556002e8ceff7740b16b /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/layout/activity_main.xml
-1374279492000 1091 169e254ede31b60fadaac00b2cd761c957fa0d7e /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/drawable-hdpi/ic_launcher.png
-1374279492000 336 d8a4da6399eeafc334e2d10bcecd8f1720236286 /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/menu/main.xml
-1374279492000 1314 8e4c432b2c372344c9ec58eb48170eda0c9b351d /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/drawable-xhdpi/ic_launcher.png
-1374279492000 239 36cdf2d308ade26e394eb70c5b9234c609cadf87 /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/values-sw720dp-land/values.xml
-1374279492000 322 3706496ba223b6b179c67ad72515435531684bca /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/values-v14/values.xml
-1374279492000 1957 930a91fd0ea1df3a70bf535cdb9cad9bfe4056b0 /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
-1374279492000 788 a9f5dec04d40d1ce8c0c475b33a7603a39fdd157 /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/drawable-mdpi/ic_launcher.png
-1374279492000 308 f0cb0eb6f973b6a25a91d51c2310f78d50aa29cc /Users/spawrks/Desktop/DossierProject/Dossier/build/res/all/debug/values-v11/values.xml
+1375908359041 1091 169e254ede31b60fadaac00b2cd761c957fa0d7e C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-hdpi\ic_launcher.png
+1375910300581 1436 6c2457ba3bb4ec982897684e9abb12bdbfc5811b C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\values\values.xml
+1375909596512 5435 7c45b41eb7680649361d2cdc8a63ea3a1b203ae2 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-mdpi\kin_face.jpg
+1375908359043 1957 930a91fd0ea1df3a70bf535cdb9cad9bfe4056b0 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
+1375909596513 15145 35cf28311d6085ac5be89a688727b93e7185c063 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-xxhdpi\kin_face.jpg
+1375908407631 352 feef1ca9e08f799544cbde85ee276157bd4eca5f C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\menu\main.xml
+1375909596513 9523 c043a35c00c21d1d207e726f4dea43bb600ce299 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-xhdpi\kin_face.jpg
+1375908407637 326 73b26c14f8c35596c978347fccd7bcd8b5979e96 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\values-v11\values.xml
+1375908407635 340 f76c6a2ad279ed2b33d2cb45eafe1a540c4035e5 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\values-v14\values.xml
+1375910280329 4558 c8dc3e46094c4a75c9339a4fe1374c365172bbc7 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\layout\activity_main.xml
+1375908359042 1314 8e4c432b2c372344c9ec58eb48170eda0c9b351d C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1375908407639 255 0d7034405744d0e7712d0ef1918897befc31ffd7 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\values-sw720dp-land\values.xml
+1375909596512 7387 c3b9d4eb2e0e1a00b14e199f3b06ed83de4c6da7 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-hdpi\kin_face.jpg
+1375908359042 788 a9f5dec04d40d1ce8c0c475b33a7603a39fdd157 C:\Development\DeltaProgram\Playground\Dossier\Dossier\build\res\all\debug\drawable-mdpi\ic_launcher.png
