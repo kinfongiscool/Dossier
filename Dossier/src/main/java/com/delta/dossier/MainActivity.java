@@ -220,8 +220,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
         public AboutMeFragment(Person person) {
             this.person = person;
-
         }
+
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
